@@ -1,7 +1,7 @@
 {
   "model_name": "tfidf-logreg-sentiment",
   "model_version": "1.0.0",
-  "trained_at": "2026-10-08T22:45:20.810623+00:00",
+  "trained_at": "2026-10-08T23:10:40.811649+00:00",
   "labels": [
     "negative",
     "neutral",
