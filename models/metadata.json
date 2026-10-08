@@ -1,0 +1,18 @@
+{
+  "model_name": "tfidf-logreg-sentiment",
+  "model_version": "1.0.0",
+  "trained_at": "2026-10-08T22:45:20.810623+00:00",
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "train_size": 360,
+  "test_size": 90,
+  "dataset": "data/reviews.csv (450 rows, 150/class, seeded generation)",
+  "classifier": "LogisticRegression(C=5.0) on TF-IDF word 1-2 + char_wb 3-5",
+  "embedding_model": "TF-IDF word 1-2, max_features=512, sublinear_tf, l2",
+  "embedding_dim": 512,
+  "latency_target_ms": 200.0,
+  "random_state": 42
+}
