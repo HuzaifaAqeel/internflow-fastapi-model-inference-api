@@ -1,0 +1,27 @@
+{
+  "target_ms": 200.0,
+  "predict_sequential": {
+    "endpoint": "POST /predict",
+    "n": 200,
+    "p50_ms": 4.63,
+    "p95_ms": 14.09,
+    "mean_ms": 6.4,
+    "max_ms": 25.92
+  },
+  "embed_sequential": {
+    "endpoint": "POST /embed",
+    "n": 200,
+    "p50_ms": 3.34,
+    "p95_ms": 10.85,
+    "mean_ms": 4.89,
+    "max_ms": 112.81
+  },
+  "predict_concurrent_50": {
+    "endpoint": "POST /predict (50 concurrent)",
+    "n": 50,
+    "p50_ms": 126.26,
+    "p95_ms": 220.1,
+    "mean_ms": 122.45,
+    "max_ms": 226.52
+  }
+}
